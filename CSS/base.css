@@ -1,0 +1,50 @@
+*,
+::before,
+::after{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;: border-box;
+    font-family: "microsoft yahei",sans-serif;
+}
+input {
+    border: none;
+    -webkit-appearance: none;
+}
+a{
+    text-decoration: none;
+}
+ol,ul {
+    list-style:none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+    clear:both;
+}
+/*边框的通用样式*/
+.b_l{
+     border-left:1px solid #eee;
+ }
+.b_r{
+    border-right:1px solid #eee;
+}
+.b_t{
+    border-top:1px solid #eee;
+}
+.b_b{
+    border-bottom:1px solid #eee;
+}
